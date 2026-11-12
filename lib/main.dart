@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
           body: ListView(
             children: [
               Picturecard(name: "Cartman", quote: "Respect mah authoritah", image: 'assets/images/cartman.webp'), //calling the card-creation method here to keep code DRY
-              Picturecard(name: "Randy", quote: "Just gotta get a little bit of cancer Stan, tell mom it's okay", image: 'assets/images/randy.webp'),
+              Picturecard(name: "Randy", quote: "Just gotta get a little bit of \ncancer Stan, tell mom it's okay", image: 'assets/images/randy.webp'),
               Picturecard(name: "Mr Slave", quote: "Oh Jesus Christ", image: 'assets/images/slave.webp')
             ],
       ),
